@@ -5,4 +5,7 @@ I installed the following packages for creating database. But I don't know which
 
 After installation I went to "Solution Explorer" > References. Right click and add reference. Look for MySQL.Data (Due to installing two packages, or maybe three, I had 3 MySQL.DATA with different versions. I selected the latest.).
 
+After this add
+	using MySql.Data.MySqlClient;
+
 That's it. Look at the code for the rest.
